@@ -1,5 +1,5 @@
 // 🔗 URL da API do Google Apps Script (troque pela sua quando publicar)
-const API_URL = "https://script.google.com/macros/s/AKfycbxU8lyct6JlSmByZ7oBLWi95RQo9rZxMf0wTJI-b51Q3i6A190nn8KdLsQd-E1gBV0/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbzbDAgMjVPJcI1hAT2m_ML8sdJXUGlTFTzEEXuWjgAog0EM0pepGq9iDIvI_h9kGnFqPw/exec";
 
 let materiais = [];
 let valorTotal = 0;
