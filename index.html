@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Orçamentos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Sistema de Orçamentos</h1>
+
+  <form id="orcamento-form">
+    <label>Nome:</label>
+    <input type="text" id="nome" required>
+
+    <label>Observações:</label>
+    <input type="text" id="observacoes">
+
+    <label>Materiais:</label>
+    <select id="material">
+      <option value="Cimento|50">Cimento - R$50</option>
+      <option value="Areia|30">Areia - R$30</option>
+      <option value="Tijolo|200">Tijolo - R$200</option>
+    </select>
+    <button type="button" id="add-material">Adicionar</button>
+  </form>
+
+  <h2>Lista de Materiais</h2>
+  <ul id="lista-materiais"></ul>
+
+  <p id="valor-total">Valor Total: R$0</p>
+
+  <button id="salvar">Salvar Orçamento</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
